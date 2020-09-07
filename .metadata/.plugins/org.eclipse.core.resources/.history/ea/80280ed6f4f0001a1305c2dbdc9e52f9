@@ -1,0 +1,20 @@
+package MyPack;
+
+public class hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Helloooo");
+	}
+	
+	//Only default and public Inner classes allowed 
+	private class InnerPrivate {
+		
+	}
+
+}
+
+//Only default outer class allowed
+class OuterClass {
+	
+}

@@ -1,0 +1,32 @@
+package MyPack;
+
+public class hello {
+	
+	hello h1 = new hello();
+	
+	public static void main(String[] args) {
+		System.out.println("Helloooo");
+		
+	}
+	
+	//Private / Public / Protected Inner classes allowed 
+	private class InnerPrivate {
+		//Only non-static methods allowed for non-static inner class
+	}
+
+	static {
+		System.out.println("static block executed even before main");
+	}
+	
+	{
+		System.out.println(h1);
+	}
+	
+}
+
+//Only default outer class allowed
+class OuterClass {
+	
+}
+
+
